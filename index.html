@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>Countdown to August 3, 2027</title>
-<meta name="description" content="A premium animated flip-clock countdown to August 3rd, 2027." />
+<title>Until • A/L 2027 & Focus Timer</title>
+<meta name="description" content="Your quiet space for exam preparation. A/L countdown, Pomodoro sessions, and daily inspiration." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -269,6 +269,31 @@ h1.title{
 @media(max-width:480px){.inspiration__top{padding:16px 18px 0;}.quote-stage{padding:12px 18px 10px;min-height:180px;}.quote-controls{padding:6px 18px 14px;flex-wrap:wrap;}.quote-hint{font-size:.65rem;}.footer{margin-top:36px;}}
 @media(prefers-reduced-motion:reduce){.quote-progress{display:none;}}
 
+
+/* UNTIL — quiet, warm, and deliberately minimal */
+:root{--bg:#101211;--panel:#20231f;--panel-2:#292d27;--ink:#f0eee5;--ink-muted:#a1a69b;--ink-dim:#969d90;--gold:#cfb784;--gold-soft:#e1cda1;--ice:#cfb784;--line:#ffffff12;--dw:clamp(24px,6.6vw,76px);--dh:clamp(46px,9.4vw,108px);--dfs:clamp(25px,5.8vw,64px);--dr:9px}
+body{display:block;padding:0;background:#101211;background-image:radial-gradient(ellipse at 50% 15%,#343b252d,transparent 65%)}
+.bg{display:none}.shell{max-width:1120px;margin:auto;padding:0 38px;text-align:left}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);gap:12px}.brand{font-family:Georgia,serif;font-size:30px;letter-spacing:-1.5px}.brand i{color:var(--gold);font-style:normal}.top-note{font-size:10px;letter-spacing:2px;color:var(--ink-muted);text-transform:uppercase}.live-pill{font-size:11px;color:#bcc9aa;display:flex;gap:8px;align-items:center}.live-pill:before{content:'';width:5px;height:5px;background:#b9c99f;border-radius:50%;box-shadow:0 0 12px #b9c94455}
+.hero{padding:48px 0 32px;text-align:center}.kicker{padding:0;border:0;background:none;margin:0 0 18px;font-size:10px;letter-spacing:2.8px;color:var(--gold);animation:none;opacity:1}.kicker__dot{display:none}h1.title{font-family:Georgia,'Times New Roman',serif;font-size:clamp(36px,5.5vw,62px);font-weight:400;letter-spacing:-2px;line-height:1.12;background:none;color:var(--ink);animation:none;opacity:1}.title em{color:var(--gold-soft);font-weight:400}.subtitle{margin-top:16px;max-width:none;font-size:13px;animation:none;opacity:1;color:var(--ink-muted)}.subtitle strong{font-weight:400;color:#d6d9cf}
+.clock-wrap{margin:36px auto 24px;padding:27px 25px 23px;background:linear-gradient(145deg,#25292277,#171a1766);border:1px solid #ffffff0d;border-radius:18px;box-shadow:0 20px 60px #00000026,inset 0 1px #ffffff04}.clock{flex-wrap:nowrap;gap:18px;transform:none!important}.group{gap:15px;animation:none;opacity:1}.group__digits{gap:5px}.group__label{font-size:9px;letter-spacing:2.2px;font-weight:500}.fd-num{font-family:'Inter',system-ui,sans-serif;font-size:clamp(25px,5.8vw,64px);font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:-2px;color:#eeeede}.flip-digit{filter:drop-shadow(0 6px 6px #00000035);perspective:700px}.fd-upper-static,.fd-upper-flap{background:linear-gradient(#2e322b,#252923)}.fd-lower-static,.fd-lower-flap{background:linear-gradient(#242822,#2b3028)}.fd-flap{backface-visibility:hidden}.fd-hinge{background:#10140ee0;height:1px;top:50%;box-shadow:0 1px #ffffff05}.flip-digit:after{border-color:#ffffff08}.flip-digit.is-flipping:before{display:none}.sep{height:var(--dh);padding:0;justify-content:center;gap:12px}.sep span{height:3px;width:3px;box-shadow:none;background:#b2b99b;animation:none;opacity:.45}.meta{margin:0;gap:20px;font-size:10px;animation:none;opacity:1}.meta__chip{background:none;border:0;padding:0;font-family:inherit;letter-spacing:.3px}.meta__chip:last-child{color:var(--gold)}
+.workspace{display:grid;grid-template-columns:1.1fr 1fr;gap:22px;margin:4px 0 0}.panel{border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,#20241f88,#171a1680)}.pomodoro{padding:24px 28px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.eyebrow{margin:0;font-size:10px;letter-spacing:2px;font-weight:500;color:var(--gold)}.section-head span{font-size:10px;color:var(--ink-muted)}button{font:inherit;cursor:pointer}button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}button:disabled{cursor:default;opacity:.45}.modes{display:flex;gap:4px;padding:4px;background:#0b0e0b77;border:1px solid #ffffff06;border-radius:9px;margin-top:24px}.mode{flex:1;border:0;background:none;color:var(--ink-muted);font-size:11px;padding:10px 3px;border-radius:6px}.mode[aria-pressed=true]{background:#343b2f;color:#edeeda;box-shadow:0 2px 4px #0003}.pomo-time{font-size:clamp(56px,7vw,76px);font-weight:400;letter-spacing:-4px;font-variant-numeric:tabular-nums;text-align:center;margin:20px 0 0;line-height:1.15}.pomo-status{text-align:center;font-size:11px;color:var(--ink-muted);margin:7px 0 18px;min-height:15px}.track{height:3px;border-radius:3px;background:#ffffff0a;overflow:hidden;margin:0 8px 22px}.track-fill{height:100%;width:0%;background:var(--gold);transition:width .3s}.timer-actions{display:flex;gap:10px;justify-content:center}.start{min-width:150px;padding:12px 25px;border:1px solid #e1cda155;border-radius:8px;background:var(--gold-soft);color:#23261d;font-size:12px;font-weight:600}.secondary{border:1px solid #ffffff15;color:var(--ink-muted);background:#ffffff03;padding:11px 15px;border-radius:8px;font-size:12px}.secondary:hover{color:var(--ink);background:#ffffff09}.pomo-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);margin-top:23px;padding-top:17px;color:var(--ink-muted);font-size:10px}.dots{display:flex;gap:5px}.dots span{width:6px;height:6px;border-radius:50%;background:#ffffff16}.dots span.done{background:var(--gold)}.settings{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}.settings summary{font-size:10px;color:var(--ink-muted);cursor:pointer}.settings-form{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.settings-form label{font-size:10px;color:var(--ink-muted)}.settings input[type=number]{display:block;width:100%;margin-top:6px;padding:9px;background:#111510;color:var(--ink);border:1px solid #ffffff15;border-radius:6px}.settings-form button{grid-column:1/-1}.sound-label{display:block;margin-top:12px;font-size:11px;color:var(--ink-muted)}input[type=checkbox]{accent-color:var(--gold)}
+.inspiration{margin:0;max-width:none;border-radius:18px;background:linear-gradient(145deg,#292e2380,#171a1680);border-color:var(--line);box-shadow:none;display:flex;flex-direction:column;text-align:left}.inspiration__top{padding:26px 28px 0}.inspiration__title{font-size:10px;font-weight:500;letter-spacing:2px;color:var(--gold)}.quote-stage{flex:1;padding:28px;min-height:195px}.quote-text{font-family:Georgia,'Times New Roman',serif;font-size:clamp(21px,2.5vw,29px);line-height:1.45;font-weight:400;letter-spacing:-.4px}.quote-author{font-size:10px;letter-spacing:.6px;margin-top:22px;color:var(--ink-muted)}.quote-controls{padding:8px 28px 24px;gap:8px;flex-wrap:wrap}.quote-hint{font-size:9px}.quote-button{min-height:34px;font-size:10px;padding:8px 11px;border-radius:6px}.quote-progress{height:2px}.quote-progress__bar{background:var(--gold);opacity:.5}.footer{margin:30px 0 0;padding:20px 0 25px;border-top:1px solid var(--line);animation:none;opacity:1;flex-direction:row;justify-content:space-between;gap:15px}.credit-pill{border:0;background:none;padding:0;font-size:10px;gap:5px}.credit-pill strong{background:none;color:var(--ink-muted);font-weight:500}.credit-link{color:var(--ink-muted);font-weight:500;text-decoration:none;transition:color .2s ease}.credit-link:hover,.credit-link:focus-visible{color:var(--gold-soft)}.credit-pill .spark{animation:none}.footer-note{font-size:10px;color:var(--ink-muted)}.celebrate{margin:15px 0}.celebrate__title{color:var(--gold);background:none;font-size:25px}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:800px){.clock{gap:10px}.clock-wrap{padding:23px 12px}.top-note{display:none}.workspace{gap:16px}.pomodoro{padding:23px 20px}.inspiration__top{padding:25px 22px 0}.quote-stage{padding:22px}.quote-controls{padding:8px 22px 22px}}
+@media(max-width:620px){.shell{padding:0 18px}.topbar{height:70px}.brand{font-size:27px}.hero{padding-top:33px}.subtitle{font-size:11px;line-height:1.7}.clock-wrap{margin-top:28px;padding:21px 8px}.clock{gap:6px}.group__digits{gap:3px}.sep{gap:8px}.sep span{width:2px;height:2px}.group__label{font-size:7px;letter-spacing:1px}.group{gap:12px}.meta{font-size:9px;gap:10px}.workspace{grid-template-columns:1fr}.pomo-time{font-size:72px}.quote-stage{min-height:155px}.quote-text{font-size:24px}.footer{flex-direction:column;align-items:center}.fd-num{letter-spacing:-1px}.hero{padding-bottom:25px}}
+@media(prefers-reduced-motion:reduce){.fd-flap{transition:none!important}.track-fill{transition:none}.flip-digit{filter:none}}
+
+/* A soft, living glow and gentle entrance rhythm across the study space. */
+body::before{content:"";position:fixed;z-index:-1;inset:-25%;pointer-events:none;background:radial-gradient(ellipse at 16% 52%,#d1bc7820,transparent 30%),radial-gradient(ellipse at 82% 76%,#667b5430,transparent 28%);filter:blur(36px);animation:ambientDrift 24s ease-in-out infinite alternate}
+@keyframes ambientDrift{0%{transform:translate3d(-2%,1%,0) scale(.97)}100%{transform:translate3d(2%,-2%,0) scale(1.06)}}
+.topbar{animation:topbarIn .8s cubic-bezier(.2,.8,.2,1) both}.hero>.kicker,.hero>.title,.hero>.subtitle,.clock-wrap,.workspace,.todo-panel,.footer{animation:riseFloat .8s cubic-bezier(.2,.8,.2,1) both}.hero>.kicker{animation-delay:.08s}.hero>.title{animation-delay:.16s}.hero>.subtitle{animation-delay:.24s}.clock-wrap{animation-delay:.30s}.workspace{animation-delay:.38s}.todo-panel{animation-delay:.46s}.footer{animation-delay:.52s}
+@keyframes topbarIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes riseFloat{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+h1.title em{display:inline-block;animation:goldenBreathe 5s ease-in-out infinite alternate}@keyframes goldenBreathe{from{text-shadow:0 0 0 #dfc79000}to{text-shadow:0 0 28px #dfc7902e}}
+.panel,.clock-wrap{transition:transform .45s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .45s}.panel:hover{transform:translateY(-3px);border-color:#cfb78435;box-shadow:0 18px 50px #0003}.clock-wrap:hover{border-color:#cfb78425;box-shadow:0 24px 70px #0003,inset 0 1px #ffffff07}.mode,.quote-button,.secondary,.start{transition:transform .22s ease,background .25s,border-color .25s,box-shadow .25s}.mode:hover,.quote-button:hover,.secondary:hover{transform:translateY(-1px)}.start:hover{transform:translateY(-2px);box-shadow:0 7px 20px #cfb78424}.start:active,.secondary:active,.quote-button:active{transform:scale(.97)}.track-fill{background:linear-gradient(90deg,#b7a276,#e2d0a6,#b7a276);background-size:180% 100%;animation:trackGlow 4s linear infinite}@keyframes trackGlow{to{background-position:180% 0}}
+.todo-panel{margin-top:22px;padding:25px 28px 22px;overflow:hidden;position:relative}.todo-panel:after{content:"";position:absolute;top:-100px;right:-70px;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,#cdb57c12,transparent 68%);pointer-events:none}.todo-head{display:flex;align-items:center;justify-content:space-between;gap:16px;position:relative;z-index:1}.todo-title{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:25px;letter-spacing:-.5px;color:var(--ink);margin:0}.todo-title em{font-style:normal;color:var(--gold-soft)}.todo-caption{color:var(--ink-muted);font-size:10px;margin:7px 0 0}.todo-summary{display:flex;align-items:center;gap:11px;color:var(--ink-muted);font-size:10px;white-space:nowrap}.todo-ring{--done:0%;width:37px;height:37px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--gold) var(--done),#ffffff12 0);position:relative;transition:background .5s cubic-bezier(.2,.8,.2,1);font-size:9px;color:#f3e8ca}.todo-ring:before{content:"";position:absolute;inset:3px;border-radius:50%;background:#1d211b}.todo-ring span{position:relative}.todo-form{display:flex;gap:9px;margin:20px 0 14px;position:relative;z-index:1}.todo-input{flex:1;min-width:0;padding:13px 14px;border-radius:9px;border:1px solid #ffffff14;background:#13161299;color:var(--ink);font:400 12px 'Inter',sans-serif;transition:border-color .25s,box-shadow .25s,background .25s}.todo-input::placeholder{color:#777e70}.todo-input:focus{outline:0;border-color:#cfb78477;box-shadow:0 0 0 3px #cfb78412;background:#131612}.todo-add{width:46px;height:43px;border:1px solid #e1cda155;border-radius:9px;background:var(--gold-soft);color:#22251e;font-size:22px;line-height:1;transition:transform .25s,box-shadow .25s}.todo-add:hover{transform:translateY(-2px) rotate(90deg);box-shadow:0 6px 18px #cfb78420}.todo-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px}.todo-filters{display:flex;gap:4px}.todo-filter{border:1px solid transparent;border-radius:6px;background:none;color:var(--ink-muted);padding:7px 10px;font-size:10px;transition:color .2s,background .2s,border .2s}.todo-filter:hover{color:var(--ink)}.todo-filter[aria-pressed=true]{color:var(--gold-soft);background:#cfb78410;border-color:#cfb78418}.todo-clear{border:0;background:none;color:#969d90;font-size:10px;padding:8px;transition:color .2s}.todo-clear:hover{color:#e5c8a4}.todo-list{list-style:none;margin:0;padding:0;position:relative;z-index:1}.todo-item{display:flex;align-items:center;gap:12px;padding:12px 5px;border-bottom:1px solid #ffffff0b;animation:todoAppear .35s cubic-bezier(.2,.8,.2,1) both;transition:opacity .22s,transform .22s}.todo-item:last-child{border-bottom:0}.todo-item.removing{opacity:0;transform:translateX(16px)}@keyframes todoAppear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.todo-check{appearance:none;flex:0 0 17px;width:17px;height:17px;margin:0;border:1px solid #858b7c99;border-radius:50%;cursor:pointer;display:grid;place-items:center;transition:background .25s,border .25s,transform .25s}.todo-check:after{content:"✓";font-size:10px;color:#22251e;transform:scale(0);transition:transform .2s}.todo-check:checked{background:var(--gold-soft);border-color:var(--gold-soft)}.todo-check:checked:after{transform:scale(1)}.todo-check:hover{transform:scale(1.12);border-color:var(--gold-soft)}.todo-text{flex:1;min-width:0;color:#dedfd5;font-size:12px;line-height:1.5;overflow-wrap:anywhere;transition:color .25s}.todo-item.is-done .todo-text{color:#858b7f;text-decoration:line-through;text-decoration-color:#cdb57c77}.todo-delete{border:0;background:transparent;color:#6e766a;font-size:17px;line-height:1;padding:5px 8px;border-radius:6px;opacity:0;transition:opacity .2s,color .2s,background .2s}.todo-item:hover .todo-delete,.todo-delete:focus-visible{opacity:1}.todo-delete:hover{color:#e5b3a4;background:#e5b3a40c}.todo-empty{display:none;text-align:center;padding:25px 10px 20px;color:var(--ink-muted);font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:1.5}.todo-empty.is-visible{display:block;animation:todoAppear .4s ease both}.todo-empty small{display:block;margin-top:5px;font:10px 'Inter',sans-serif;color:#7d8478}.todo-foot{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff0b;padding-top:12px;color:#8d9487;font-size:9px}.todo-foot strong{font-weight:500;color:var(--gold-soft)}
+@media(max-width:620px){.todo-panel{margin-top:16px;padding:22px 17px 18px}.todo-title{font-size:23px}.todo-summary{font-size:9px;gap:7px}.todo-toolbar{align-items:flex-start}.todo-filter{padding:7px 8px}.todo-item{gap:10px}.todo-delete{opacity:.75}.todo-input{font-size:11px}}
+@media(prefers-reduced-motion:reduce){body:before,h1.title em,.track-fill{animation:none!important}.topbar,.hero>.kicker,.hero>.title,.hero>.subtitle,.clock-wrap,.workspace,.todo-panel,.footer{animation:none!important;opacity:1!important;transform:none!important}.panel,.clock-wrap,.mode,.quote-button,.secondary,.start,.todo-item,.todo-ring{transition:none!important}.todo-item{animation:none!important}.todo-add:hover{transform:none}}
+
 </style>
 </head>
 <body>
@@ -283,12 +308,14 @@ h1.title{
 <canvas id="confettiCanvas"></canvas>
 
 <main class="shell">
-  <span class="kicker"><span class="kicker__dot"></span> Live Countdown</span>
-  <h1 class="title">A/L Exam Countdown 2027<br>August 3, 2027</h1>
-  <p class="subtitle">Counting down to <strong>August 3rd, 2027 at 12:00 AM</strong> — every second, live, right down to the flip.</p>
+<header class="topbar"><div class="brand">Zenix<i>.</i></div><span class="top-note">Small steps. Extraordinary futures.</span><span class="live-pill">Your study space</span></header>
+<section class="hero" aria-labelledby="examTitle">
+  <span class="kicker"><span class="kicker__dot"></span> THE COUNTDOWN TO YOUR NEXT CHAPTER</span>
+  <h1 class="title" id="examTitle">Make every moment <em>matter.</em></h1>
+  <p class="subtitle">A/L Examination 2027 &nbsp; / &nbsp; <strong>03 August · 12:00 AM</strong><br>Your target date. Your pace. Your next chapter.</p>
 
   <div class="clock-wrap">
-    <div class="clock" id="clock">
+    <div class="clock" id="clock" role="timer" aria-label="Time remaining until the exam">
       <div class="group" id="groupDays">
         <div class="group__digits" id="daysDigits"></div>
         <span class="group__label" id="daysLabel">Days</span>
@@ -325,9 +352,21 @@ h1.title{
   </div>
 
 
+</section>
+<div class="workspace">
+<section class="pomodoro panel" aria-labelledby="pomoTitle">
+<div class="section-head"><h2 id="pomoTitle" class="eyebrow">01 / FOCUS ROOM</h2><span>One session at a time</span></div>
+<div class="modes" role="group" aria-label="Timer mode"><button class="mode" data-mode="focus" aria-pressed="true">Focus</button><button class="mode" data-mode="short" aria-pressed="false">Short break</button><button class="mode" data-mode="long" aria-pressed="false">Long break</button></div>
+<div class="pomo-time" id="pomoTime" role="timer" aria-label="Focus time remaining">25:00</div>
+<p class="pomo-status" id="pomoStatus" role="status">A little focus goes a long way.</p>
+<div class="track" aria-hidden="true"><div class="track-fill" id="pomoProgress"></div></div>
+<div class="timer-actions"><button class="secondary" id="pomoReset" aria-label="Reset current timer">↺ Reset</button><button class="start" id="pomoStart">▶ Start focus</button></div>
+<div class="pomo-bottom"><span id="sessionCount">0 focus sessions completed</span><div class="dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div>
+<details class="settings"><summary>Timer settings</summary><form class="settings-form" id="pomoSettings"><label>Focus · min<input type="number" id="focusMinutes" min="1" max="180" value="25" required></label><label>Short · min<input type="number" id="shortMinutes" min="1" max="60" value="5" required></label><label>Long · min<input type="number" id="longMinutes" min="1" max="120" value="15" required></label><button class="secondary" type="submit">Save & reset timer</button></form><label class="sound-label"><input type="checkbox" id="soundEnabled" checked> Completion sound</label></details>
+</section>
   <section class="inspiration" aria-labelledby="inspirationTitle">
     <div class="inspiration__top">
-      <h2 class="inspiration__title" id="inspirationTitle">✦ A little inspiration</h2>
+      <h2 class="inspiration__title" id="inspirationTitle">02 / A LITTLE PERSPECTIVE</h2>
     </div>
     <div class="quote-stage">
       <figure class="quote-content" id="quoteContent" aria-live="off">
@@ -345,8 +384,20 @@ h1.title{
     <div class="quote-progress" aria-hidden="true"><div class="quote-progress__bar" id="quoteProgress"></div></div>
   </section>
 
-  <div class="footer">
-    <div class="credit-pill"><span class="spark">✦</span> Developed and Designed by <strong>Dinith Kumarasinghe</strong></div>
+</div>
+
+<section class="todo-panel panel" aria-labelledby="todoTitle">
+  <div class="todo-head">
+    <div><h2 class="todo-title" id="todoTitle">A little list, <em>a lighter mind.</em></h2><p class="todo-caption">Choose what matters today. The rest can wait.</p></div>
+    <div class="todo-summary"><span id="todoSummary">0 tasks done</span><div class="todo-ring" id="todoRing" aria-label="0 percent complete"><span id="todoPercent">0%</span></div></div>
+  </div>
+  <form class="todo-form" id="todoForm"><label class="sr-only" for="todoInput">Add a task</label><input class="todo-input" id="todoInput" maxlength="160" autocomplete="off" placeholder="What would you like to get done?" required><button class="todo-add" id="todoAdd" type="button" aria-label="Add task">+</button></form>
+  <div class="todo-toolbar"><div class="todo-filters" role="group" aria-label="Filter tasks"><button class="todo-filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="todo-filter" type="button" data-filter="active" aria-pressed="false">To do</button><button class="todo-filter" type="button" data-filter="done" aria-pressed="false">Done</button></div><button class="todo-clear" type="button" id="todoClear">Clear completed</button></div>
+  <ul class="todo-list" id="todoList" aria-label="Your tasks"></ul><div class="todo-empty is-visible" id="todoEmpty">No tasks on the list yet.<small>Add one small thing to begin.</small></div>
+  <div class="todo-foot"><span><strong id="todoRemaining">0</strong> things left to do</span><span>Your list stays on this device</span></div>
+</section>
+  <div class="footer"><span class="footer-note">Stay present. Keep becoming.</span>
+    <div class="credit-pill"><span class="spark">✦</span> Developed and Designed by <a class="credit-link" href="https://t.me/DinithKumarasinghe" target="_blank" rel="noopener noreferrer">Dinith Kumarasinghe</a></div>
   </div>
 </main>
 
@@ -355,12 +406,12 @@ h1.title{
   "use strict";
 
   /* ---------------- target ---------------- */
-  var TARGET = new Date(2027, 7, 3, 0, 0, 0, 0); // August 3rd, 2027, 12:00 AM (local time)
+  var TARGET = new Date('2027-08-03T00:00:00+05:30'); // Exam target in Sri Lanka time.
 
   /* ---------------- starfield ---------------- */
   (function buildStars(){
     var wrap = document.getElementById('stars');
-    var count = window.innerWidth < 640 ? 40 : 80;
+    var count = 0;
     var frag = document.createDocumentFragment();
     for (var i = 0; i < count; i++){
       var s = document.createElement('span');
@@ -391,6 +442,7 @@ h1.title{
     var lowerFlapNum = mount.querySelector('.fd-lower-flap .fd-num');
 
     var current = null;
+    var noMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var timers = [];
 
     function clearTimers(){
@@ -417,7 +469,7 @@ h1.title{
 
     function update(val){
       if (val === current) return;
-      if (current === null){ setInstant(val); return; }
+      if (current === null || noMotion){ setInstant(val); return; }
 
       clearTimers();
       current = val;
@@ -481,7 +533,7 @@ h1.title{
   var timezoneChip = document.getElementById('timezoneChip');
   try {
     var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
-    timezoneChip.textContent = 'Timezone: ' + tz;
+    timezoneChip.textContent = 'Exam · Sri Lanka (UTC+05:30)';
   } catch (e){
     timezoneChip.textContent = '';
   }
@@ -552,7 +604,7 @@ h1.title{
   /* ---------------- pointer parallax ---------------- */
   var clockEl = document.getElementById('clock');
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!reduceMotion && window.matchMedia && window.matchMedia('(pointer: fine)').matches){
+  if (false){ // Keep the clock steady for comfortable reading.
     window.addEventListener('pointermove', function(e){
       var rx = ((e.clientY / window.innerHeight) - 0.5) * -6;
       var ry = ((e.clientX / window.innerWidth) - 0.5) * 8;
@@ -572,7 +624,7 @@ h1.title{
     var diff = TARGET.getTime() - now.getTime();
 
     localTimeChip.textContent = now.toLocaleString(undefined, {
-      weekday: 'short', month: 'short', day: 'numeric',
+      timeZone: 'Asia/Colombo', weekday: 'short', month: 'short', day: 'numeric',
       hour: '2-digit', minute: '2-digit', second: '2-digit'
     });
 
@@ -584,9 +636,7 @@ h1.title{
       if (!completed){
         completed = true;
         document.getElementById('celebrate').classList.add('is-visible');
-        burstConfetti();
-        setTimeout(burstConfetti, 500);
-        setTimeout(burstConfetti, 1000);
+        if (!reduceMotion) burstConfetti();
         if (mainInterval) clearInterval(mainInterval);
       }
       return;
@@ -598,6 +648,7 @@ h1.title{
     var minutes = Math.floor((totalSeconds % 3600) / 60);
     var seconds = totalSeconds % 60;
 
+    clockEl.setAttribute("aria-label", days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds until the exam");
     daysGroup.set(days);
     hoursGroup.set(hours);
     minutesGroup.set(minutes);
@@ -1139,5 +1190,58 @@ h1.title{
 })();
 </script>
 
+
+<script>
+(function(){
+'use strict';
+const KEY='until.pomodoro.v1', $=id=>document.getElementById(id);
+const labels={focus:'Focus',short:'Short break',long:'Long break'};
+let state={mode:'focus',durations:{focus:25,short:5,long:15},remaining:1500000,running:false,endAt:null,completed:0,sound:true};
+try{const v=JSON.parse(localStorage.getItem(KEY));if(v && labels[v.mode] && ['focus','short','long'].every(k=>Number.isInteger(v.durations?.[k])&&v.durations[k]>=1&&v.durations[k]<={focus:180,short:60,long:120}[k]) && Number.isFinite(v.remaining)&&v.remaining>=0&&v.remaining<=v.durations[v.mode]*60000&&Number.isInteger(v.completed)&&v.completed>=0&&typeof v.running==='boolean'&&(!v.running||Number.isFinite(v.endAt))){state={...state,...v};}}catch(e){}
+let audio=null,notice='',lastTitle='';
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
+function unlockAudio(){if(!state.sound)return;try{audio=audio||new (window.AudioContext||window.webkitAudioContext)();if(audio.state==='suspended')audio.resume().catch(()=>{});}catch(e){}}
+function chime(){if(!state.sound||!audio)return;try{[0,.24,.48].forEach((delay,i)=>{const o=audio.createOscillator(),g=audio.createGain(),t=audio.currentTime+delay;o.type='sine';o.frequency.value=[523.25,659.25,783.99][i];g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.12,t+.02);g.gain.exponentialRampToValueAtTime(.001,t+.55);o.connect(g);g.connect(audio.destination);o.start(t);o.stop(t+.6);});}catch(e){}}
+function timeLeft(){return state.running?Math.max(0,state.endAt-Date.now()):state.remaining;}
+function choose(mode){state.mode=mode;state.running=false;state.endAt=null;state.remaining=state.durations[mode]*60000;save();render();}
+function finish(){const old=state.mode;state.running=false;if(old==='focus')state.completed++;notice=old==='focus'?'Session complete. You earned a break.':'Break complete. Ready for a fresh start?';chime();choose(old==='focus'?(state.completed%4===0?'long':'short'):'focus');}
+function render(){const left=timeLeft(),seconds=Math.ceil(left/1000),time=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');$('pomoTime').textContent=time;$('pomoTime').setAttribute('aria-label',labels[state.mode]+', '+Math.floor(seconds/60)+' minutes '+seconds%60+' seconds remaining');$('pomoProgress').style.width=Math.min(100,Math.max(0,100*(1-left/(state.durations[state.mode]*60000))))+'%';$('pomoStart').textContent=state.running?'Ⅱ Pause':(state.remaining<state.durations[state.mode]*60000?'▶ Resume':'▶ Start '+(state.mode==='focus'?'focus':'break'));const status=notice||(state.running?(state.mode==='focus'?'Just this moment. Just this task.':'Breathe. Stretch. Come back refreshed.'):'A little focus goes a long way.');if($('pomoStatus').textContent!==status)$('pomoStatus').textContent=status;document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===state.mode)));$('sessionCount').textContent=state.completed+' focus session'+(state.completed===1?'':'s')+' completed';const dots=state.completed%4 || (state.completed?4:0);document.querySelectorAll('.dots span').forEach((d,i)=>d.classList.toggle('done',i<dots));const title=state.running?time+' · '+labels[state.mode]+' | Zenix':'Zenix • A/L 2027 & Focus Timer';if(title!==lastTitle){document.title=title;lastTitle=title;}}
+function tick(){if(state.running&&timeLeft()<=0)finish();else render();}
+$('pomoStart').addEventListener('click',()=>{unlockAudio();if(state.running&&timeLeft()<=0){finish();return;}notice='';if(state.running){state.remaining=timeLeft();state.running=false;state.endAt=null;notice='Paused. Take your time.';}else{state.endAt=Date.now()+state.remaining;state.running=true;}save();render();});
+$('pomoReset').addEventListener('click',()=>{notice='Timer reset. A fresh start.';choose(state.mode);});
+document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{if(state.mode===b.dataset.mode)return;notice='';choose(b.dataset.mode);}));
+for(const k of Object.keys(labels))$(k+'Minutes').value=state.durations[k];
+$('soundEnabled').checked=state.sound;
+$('soundEnabled').addEventListener('change',e=>{state.sound=e.target.checked;unlockAudio();save();});
+$('pomoSettings').addEventListener('submit',e=>{e.preventDefault();if(!e.target.reportValidity())return;for(const k of Object.keys(labels))state.durations[k]=Number($(k+'Minutes').value);notice='Settings saved. Ready when you are.';choose(state.mode);});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
+window.addEventListener('pagehide',save);
+tick();setInterval(tick,250);
+})();
+</script>
+
+<script>
+(function(){
+'use strict';
+const KEY='until.todo.v1';
+const $=id=>document.getElementById(id);
+let tasks=[],filter='all';
+try{const saved=JSON.parse(localStorage.getItem(KEY));if(Array.isArray(saved))tasks=saved.filter(t=>t&&typeof t.id==='string'&&typeof t.text==='string'&&typeof t.done==='boolean').slice(0,250);}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(tasks));}catch(e){}}
+function makeTask(task,index){const li=document.createElement('li');li.className='todo-item'+(task.done?' is-done':'');li.style.animationDelay=Math.min(index*35,210)+'ms';
+ const checkbox=document.createElement('input');checkbox.className='todo-check';checkbox.type='checkbox';checkbox.checked=task.done;checkbox.setAttribute('aria-label',(task.done?'Mark incomplete: ':'Complete: ')+task.text);checkbox.addEventListener('change',()=>{task.done=checkbox.checked;save();render();});
+ const label=document.createElement('span');label.className='todo-text';label.textContent=task.text;
+ const remove=document.createElement('button');remove.className='todo-delete';remove.type='button';remove.textContent='×';remove.setAttribute('aria-label','Delete task: '+task.text);remove.addEventListener('click',()=>{li.classList.add('removing');setTimeout(()=>{tasks=tasks.filter(t=>t.id!==task.id);save();render();},220);});
+ li.append(checkbox,label,remove);return li;
+}
+function render(){const list=$('todoList');list.replaceChildren();const shown=tasks.filter(t=>filter==='all'||(filter==='active'&&!t.done)||(filter==='done'&&t.done));shown.forEach((task,i)=>list.appendChild(makeTask(task,i)));const done=tasks.filter(t=>t.done).length,remaining=tasks.length-done,pct=tasks.length?Math.round(done/tasks.length*100):0;$('todoSummary').textContent=done+' of '+tasks.length+' done';$('todoPercent').textContent=pct+'%';$('todoRing').style.setProperty('--done',pct+'%');$('todoRing').setAttribute('aria-label',pct+' percent complete');$('todoRemaining').textContent=remaining;$('todoEmpty').classList.toggle('is-visible',shown.length===0);$('todoEmpty').innerHTML=tasks.length===0?'No tasks on the list yet.<small>Add one small thing to begin.</small>':filter==='active'?'Nothing left to do.<small>Enjoy a quiet moment, or add another task.</small>':'No completed tasks yet.<small>Every finished step will show up here.</small>';document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===filter)));$('todoClear').disabled=done===0;}
+function addTask(){const input=$('todoInput'),text=input.value.trim();if(!text){input.focus();return;}if(tasks.length>=250){input.setCustomValidity('You have reached the 250 task limit. Clear or remove a few tasks first.');input.reportValidity();input.setCustomValidity('');return;}tasks.unshift({id:Date.now().toString(36)+Math.random().toString(36).slice(2),text:text.slice(0,160),done:false});save();filter='all';input.value='';render();input.focus();}
+$('todoAdd').addEventListener('click',addTask);
+$('todoForm').addEventListener('submit',e=>{e.preventDefault();addTask();});
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;render();}));
+$('todoClear').addEventListener('click',()=>{tasks=tasks.filter(t=>!t.done);save();render();});
+render();
+})();
+</script>
 </body>
 </html>
